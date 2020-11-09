@@ -1,4 +1,57 @@
-baseURL = "http://adamjhcox.me/"
-languageCode = "en-us"
-title = "Adam Cox"
-theme = "hugo-PaperMod"
+baseURL: 'http://adamjhcox.me/'
+languageCode: en-gb
+title: Adam Cox
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Adam Cox
+  description: Software Engineer
+  author: me
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    # imageUrl: '<img location>'
+    # imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: 'https://github.com/adamjhc'
+    - name: stackoverflow
+      url: 'https://stackoverflow.com/users/12104057/adamjhc'
+    - name: linkedin
+      url: 'https://linkedin.com'
+    - name: hackerrank
+      url: 'https://hackerrank.com'
+    - name: sourcerer
+      url: 'https://sourcerer.io/adamjhc'
+    - name: steam
+      url: 'steampowered.com/xacehd'
