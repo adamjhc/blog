@@ -24,6 +24,9 @@ jobs:
     - name: Build
       run: hugo --minify -t hugo-PaperMod
 
+    - name: Create cname file
+      run: echo 'adamjhcox.me' > public/CNAME
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
       env:
