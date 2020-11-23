@@ -22,7 +22,7 @@ jobs:
         hugo-version: 'latest'
 
     - name: Build
-      run: hugo --minify -t hugo-PaperMod
+      run: hugo --minify
 
     - name: Create cname file
       run: echo 'adamjhcox.me' > public/CNAME
