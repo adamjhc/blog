@@ -10,7 +10,7 @@ author: "Me"
 showToc: false
 TocOpen: false
 hidemeta: false
-comments: false
+comments: true
 ---
 
 # Hi!
